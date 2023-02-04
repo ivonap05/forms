@@ -1,0 +1,104 @@
+body {
+  background-color: rgb(226, 242, 247);
+  font-family: "Robto", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 2rem;
+  color: rgb(29, 28, 28);
+}
+
+form {
+  width: 40rem;
+  margin: auto;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+section {
+  margin-bottom: 1 rem;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+label {
+  color: rgb(45, 45, 56);
+  display: block;
+  margin-bottom: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  font: inherit;
+  width: 100%;
+  display: block;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  font: inherit;
+  border: 1px solid rgb(185, 180, 180);
+  border-radius: 4px;
+  padding: 0.5rem;
+  color: rgb(53, 53, 53);
+}
+
+textarea {
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+    background-color: rgb(187, 196, 246);
+}
+
+button {
+    font: inherit;
+    border: 1px solid rgb(51, 67, 100);
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#buttons {
+    text-align: right;
+}
+
+.btn-filled {
+    background-color: rgb(51, 67, 100);
+    color: white;
+}
+
+.btn-empty {
+    background-color: transparent;
+    color: rgb(144, 167, 215); 
+}
+
+.btn-filled:hover {
+    background-color: rgb(73, 94, 136);
+    border-color: rgb(73, 94, 136);
+}
+
+.btn-empty:hover {
+    background-color: rgb(191, 206, 235);
+}
+
+.inline-control {
+    display: flex;
+}
+
+.inline-control label {
+    margin: 0;
+    margin-left: 0.5rem;
+}
+
+.inline-control input {
+    width: auto;
+}
+
